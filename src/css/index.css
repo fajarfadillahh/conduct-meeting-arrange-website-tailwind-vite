@@ -38,6 +38,16 @@
 }
 
 /* ===== HEADER SECTION ===== */
+.header.sticky-action {
+  @apply bg-white shadow-[0_2px_12px_rgba(0,0,0,0.1)];
+}
+.header.sticky-action .header__logo-icon {
+  @apply text-blue;
+}
+.header.sticky-action .header__logo,
+.header.sticky-action .header__toggle {
+  @apply text-black;
+}
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }

@@ -33,17 +33,15 @@
       >
         <a
           href="#"
-          class="header__logo inline-flex items-center gap-2 text-[18px] text-black font-bold transition-all duration-400"
+          class="header__logo inline-flex items-center gap-2 text-[18px] text-white font-bold transition-all duration-400"
         >
           <svg
             viewBox="0 0 45 46"
-            fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
-            class="header__logo-icon w-[30px] transition-all duration-400"
+            class="header__logo-icon w-[30px] fill-current text-white transition-all duration-400"
           >
             <path
               d="M0 23C0 10.5736 10.0736 0.5 22.5 0.5C34.9264 0.5 45 10.5736 45 23V41.4091C45 43.6684 43.1684 45.5 40.9091 45.5H22.5C10.0736 45.5 0 35.4264 0 23Z"
-              fill="#4e7cff"
             />
           </svg>
           Conduct.
@@ -76,7 +74,7 @@
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer transition-all duration-400"
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-400"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -84,6 +82,53 @@
       </div>
     </header>
     <!-- ===== HEADER SECTION ===== -->
+
+    <main class="main overflow-hidden">
+      <!-- ===== HOME SECTION ===== -->
+      <section class="home section relative bg-blue z-10">
+        <div class="home__container container grid gap-12 z-10">
+          <div class="home__data justify-self-center">
+            <h1 class="home__title section-title text-white">
+              Conduct Ai helps you <br />
+              schedule meetings
+            </h1>
+            <p class="home__text section-text text-white">
+              Our software makes it easier to schedule and plan meetings. We
+              understand busy schedules and save you time, energy and money
+              streamlining tedious engagements.
+            </p>
+            <div class="home__buttons inline-flex items-center gap-4 mb-4">
+              <a href="#" class="home__buttons-started button button-fill"
+                >Get Started</a
+              >
+              <a
+                href="#"
+                class="home__buttons-video button button-link text-white"
+              >
+                <i class="bx bx-play button-icon text-white text-[1.5rem]"></i>
+                Watch Video
+              </a>
+            </div>
+            <p class="home__tag text-[13px] text-white">
+              Free 14-day trial • No credit card required • Cancel anytime
+            </p>
+          </div>
+
+          <img
+            src="./src/img/home-img.png"
+            alt=""
+            class="home__img justify-self-center"
+          />
+        </div>
+
+        <img
+          src="./src/img/home-bg.svg"
+          alt=""
+          class="home__bg absolute right-0 bottom-0 -z-10"
+        />
+      </section>
+      <!-- ===== HOME SECTION ===== -->
+    </main>
 
     <!-- ===== SWIPER JS ===== -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
