@@ -21,7 +21,7 @@
 
   /* button class */
   .button {
-    @apply inline-flex justify-center items-center text-[15px] font-semibold;
+    @apply inline-flex justify-center items-center text-[15px] font-medium;
   }
   .button-fill {
     @apply py-4 px-8 bg-white rounded-2xl text-black;
@@ -35,4 +35,20 @@
   .button-icon {
     @apply inline-flex text-[1.2rem] text-blue transition-all duration-400;
   }
+}
+
+/* ===== HEADER SECTION ===== */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-100;
+}
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-white shadow-[0_0_12px_rgba(0,0,0,0.1)] rounded-[2rem] transition-all duration-400 opacity-0 scale-y-0 origin-[0%_0%];
+  }
+}
+.header__link {
+  @apply text-[15px] text-grey transition-all duration-400;
+}
+.header__link.active-link {
+  @apply font-semibold text-blue transition-all duration-400;
 }

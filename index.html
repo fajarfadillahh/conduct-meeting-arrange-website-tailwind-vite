@@ -23,6 +23,68 @@
     />
   </head>
   <body class="font-body font-reguler">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-transparent z-50 transition-all duration-400"
+      id="header"
+    >
+      <div
+        class="header__container container h-24 flex justify-between items-center"
+      >
+        <a
+          href="#"
+          class="header__logo inline-flex items-center gap-2 text-[18px] text-black font-bold transition-all duration-400"
+        >
+          <svg
+            viewBox="0 0 45 46"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            class="header__logo-icon w-[30px] transition-all duration-400"
+          >
+            <path
+              d="M0 23C0 10.5736 10.0736 0.5 22.5 0.5C34.9264 0.5 45 10.5736 45 23V41.4091C45 43.6684 43.1684 45.5 40.9091 45.5H22.5C10.0736 45.5 0 35.4264 0 23Z"
+              fill="#4e7cff"
+            />
+          </svg>
+          Conduct.
+        </a>
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6">
+            <li class="header__item">
+              <a href="#" class="header__link active-link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Products</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Pricing</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Resources</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Contact Us</a>
+            </li>
+          </ul>
+
+          <a
+            href="#"
+            class="header__button button button-fill flex bg-blue text-white mt-6 transition-all duration-400"
+            >Register</a
+          >
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer transition-all duration-400"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== SWIPER JS ===== -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
