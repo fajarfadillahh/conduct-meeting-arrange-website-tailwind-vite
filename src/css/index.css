@@ -62,3 +62,15 @@
 .header__link.active-link {
   @apply font-semibold text-blue transition-all duration-400;
 }
+
+/* ===== FEATURE SECTION ===== */
+.feature__group {
+  @apply grid gap-48;
+}
+.feature__content {
+  @apply grid gap-8;
+}
+.feature__content-data,
+.feature__content-img {
+  @apply justify-self-center;
+}
