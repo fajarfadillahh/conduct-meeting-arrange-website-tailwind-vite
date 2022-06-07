@@ -74,3 +74,33 @@
 .feature__content-img {
   @apply justify-self-center;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-4 py-12 px-8 bg-white rounded-[2rem] transition-all duration-400;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-4;
+}
+.testimonial__content-img {
+  @apply w-[65px];
+}
+.testimonial__content-name {
+  @apply text-[17px] text-black font-bold mb-2;
+}
+.testimonial__content-profession {
+  @apply text-[12px] text-grey;
+}
+.testimonial__content.swiper-slide-active {
+  @apply shadow-[-10px_10px_0_#a3bafb];
+}
+/* swiper pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-[10px] h-[10px] bg-white bg-opacity-80 transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-[2rem] h-[10px] bg-white rounded-[5rem] transition-all duration-400;
+}
