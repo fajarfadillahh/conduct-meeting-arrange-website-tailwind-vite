@@ -104,3 +104,27 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-white rounded-[5rem] transition-all duration-400;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__group {
+  @apply grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-10;
+}
+.footer__content-title {
+  @apply text-[18px] text-black font-bold mb-5;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content-link,
+.footer__copy-link {
+  @apply text-[15px] text-grey hover:text-blue hover:underline;
+}
+.footer__copy {
+  @apply flex flex-col justify-center items-center gap-6;
+}
+.footer__copy-list {
+  @apply inline-flex items-center gap-4;
+}
+.footer__copy-rights {
+  @apply text-center text-[15px] text-grey leading-text;
+}
