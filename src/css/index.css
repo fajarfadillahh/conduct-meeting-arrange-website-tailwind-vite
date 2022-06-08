@@ -72,7 +72,7 @@
 }
 .feature__content-data,
 .feature__content-img {
-  @apply justify-self-center xs:w-[400px];
+  @apply justify-self-center xs:w-[400px] sm:w-[480px];
 }
 
 /* ===== TESTIMONIAL SECTION ===== */

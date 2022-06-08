@@ -87,7 +87,7 @@
       <!-- ===== HOME SECTION ===== -->
       <section class="home section relative bg-blue z-10">
         <div class="home__container container grid gap-12 z-10">
-          <div class="home__data justify-self-center xs:w-[400px]">
+          <div class="home__data justify-self-center xs:w-[400px] sm:w-[480px]">
             <h1 class="home__title section-title text-white">
               Conduct Ai helps you <br />
               schedule meetings
@@ -117,7 +117,7 @@
           <img
             src="./src/img/home-img.png"
             alt=""
-            class="home__img justify-self-center xs:w-[400px]"
+            class="home__img justify-self-center xs:w-[400px] sm:w-[480px]"
           />
         </div>
 
@@ -361,22 +361,20 @@
 
       <!-- ===== CALLBACK SECTION ===== -->
       <section class="callback section">
-        <div
-          class="callback__container container grid gap-4 xs:w-[400px] xs:w-auto"
-        >
-          <div
-            class="callback__data text-center justify-self-center xs:w-[400px]"
-          >
+        <div class="callback__container container grid gap-4">
+          <div class="callback__data text-center justify-self-center">
             <h1 class="callback__data-title section-title">
               Try a better way of scheduling
             </h1>
-            <p class="callback__data-text section-text">
+            <p class="callback__data-text section-text sm:w-[400px] sm:mx-auto">
               Conduct make it easier for you to start scheduling a proper and
               easy way.
             </p>
           </div>
 
-          <div class="callback__buttons flex flex-col gap-4 mb-4">
+          <div
+            class="callback__buttons flex flex-col gap-4 mb-4 sm:flex-row sm:justify-self-center sm:items-center"
+          >
             <a
               href="#"
               class="callback__buttons-google flex justify-center items-center gap-4 py-4 px-8 border-[1.5px] border-grey rounded-[1rem] text-[15px] text-grey transition-all duration-400 hover:bg-black hover:border-black hover:text-white"
