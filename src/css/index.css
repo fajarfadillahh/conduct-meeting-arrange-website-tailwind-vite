@@ -133,3 +133,8 @@
 .scrollup.scroll-action {
   @apply bottom-12;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-[#a3bafb] text-black;
+}
