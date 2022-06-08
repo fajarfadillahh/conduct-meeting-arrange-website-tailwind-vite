@@ -48,6 +48,15 @@
 .header.sticky-action .header__toggle {
   @apply text-black;
 }
+.header.sticky-action .header__button {
+  @apply md:bg-blue md:text-white;
+}
+.header.sticky-action .header__link {
+  @apply md:text-grey;
+}
+.header.sticky-action .header__link.active-link {
+  @apply md:text-blue;
+}
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
@@ -57,10 +66,10 @@
   }
 }
 .header__link {
-  @apply text-[15px] text-grey transition-all duration-400;
+  @apply text-[15px] text-grey transition-all duration-400 md:text-white;
 }
 .header__link.active-link {
-  @apply font-semibold text-blue transition-all duration-400;
+  @apply font-semibold text-blue transition-all duration-400 md:text-white;
 }
 
 /* ===== FEATURE SECTION ===== */

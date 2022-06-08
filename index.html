@@ -47,8 +47,13 @@
           Conduct.
         </a>
 
-        <div class="header__menu" id="header-menu">
-          <ul class="header__list flex flex-col gap-6">
+        <div
+          class="header__menu md:flex md:items-center md:gap-6"
+          id="header-menu"
+        >
+          <ul
+            class="header__list flex flex-col gap-6 md:flex-row md:items-center"
+          >
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
             </li>
@@ -68,13 +73,13 @@
 
           <a
             href="#"
-            class="header__button button button-fill flex bg-blue text-white mt-6 transition-all duration-400"
+            class="header__button button button-fill flex bg-blue text-white mt-6 transition-all duration-400 md:mt-0 md:bg-white md:text-blue"
             >Register</a
           >
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-400"
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-400 md:hidden"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
