@@ -128,3 +128,8 @@
 .footer__copy-rights {
   @apply text-center text-[15px] text-grey leading-text;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
